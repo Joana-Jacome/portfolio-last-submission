@@ -1,4 +1,6 @@
-
+ *{
+   box-sizing: border-box;
+ }
 body{
   margin: 0;
   padding: 0;
@@ -17,8 +19,8 @@ body{
 
 .container-content{
   position: absolute;
-  top: 50px;
-  left: 50px;
+  top: 198px;
+  left: 60px;
   transform: tranlate(-50%, -50%);
   overflow: hidden;
   text-align: left;
@@ -59,18 +61,17 @@ u {
   padding: 2rem 4rem;
 }
 
-#skills h1 {
+#skills h2 {
   text-align: center;
   color: black;
   padding-top: 1rem;
   padding-bottom: 1.5rem;
   margin-bottom: 0.5rem;
 }
-span{
-  font-weight: bold;
-  font-size: 1rem;
-}
 
+.html{
+  color: pink;
+}
 /*About me section=========================================================================*/
 #about-me{
 background-color: #17a2b8;
@@ -81,7 +82,7 @@ background-color: #17a2b8;
 text-align: center;
 color: white;
 padding-top: 1rem;
-padding-bottom: 2rem;
+padding-bottom: 3rem;
 }
 .about {
   display: flex;
@@ -102,8 +103,11 @@ padding-bottom: 2rem;
 .about-text {
   flex: 1 0 300px; /* image width */
   max-width: 100%;
-  padding: 0 2rem;
+  padding: 0 0.5rem;
   color: white;
+  height: 60vh;
+  
+  
 
 }
 .button-text{

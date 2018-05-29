@@ -1,30 +1,52 @@
 
-/*Banner -  My introduction======================================================================*/
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+/*Hero-Image Section======================================================================*/
 
-#banner {
-  padding: 4rem;
-  height: 490px;
-  margin-top: 50px;
-  background-image: url('../img/hero-image.jpg');
+.hero-image{
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  background: url('../img/hero-image.jpg') no-repeat center;
   background-size: cover;
-  background-position: 20% 30%;
 }
 
-#banner .greeting {
-  font-size: 200%;
-  font-weight: bold;
-  color: white;
+.container-content{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: tranlate(-50%, -50%);
+  overflow: hidden;
   text-align: left;
-  margin-left: 0.9rem;
+  color: white;
+  font-weight: 700;
 }
 
-#banner .whoiam {
-  font-size: 150%;
-  font-weight: bold;
-  color: white;
-  text-align: left;
-  margin-left: 0.9rem;
+.my-name{
+  margin: 20px;
+  display: block;
+  font-size: 20px;
+  text-shadow: 0 0 10px black;
+  
+
 }
+u {
+  text-decoration:none;
+  border-bottom: 5px solid #17a2b8;
+}
+
+.my-title{
+  margin: 20px;
+  display: block;
+  font-size: 20px;
+  text-shadow: 0 0 10px black;
+  padding: 0.1em;
+}
+
 
 /*stages of web development===================================================================*/
 /*used bootstrap*/
@@ -46,7 +68,7 @@
 }
 span{
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 /*About me section=========================================================================*/
@@ -261,7 +283,17 @@ fab:hover{
   /* IE 10+ */
   color: #a9aacd;
 }
-
+@media screen and (max-width: 640px) {
+  .input-form {
+    flex-direction: column;
+  }
+  .input:first-child > input {
+    margin-bottom: 20px;
+  }
+  .form .input > input {
+    width: 100% !important;
+  }
+}
 
 @media screen and (max-width: 580px) {
   .address {

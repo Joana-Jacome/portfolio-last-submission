@@ -14,10 +14,10 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <!--navigation-->
   <nav class="navbar navbar-expand-sm bg-info navbar-dark sticky-top">
-    <div class="container">
+    <div class="container-fluid">
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -46,8 +46,8 @@
   <section id="banner">
     <div class="hero-image">
       <div class="container-content">
-        <span class="my-name">
-          <u>Hi, I'm Joana Jacome!</u>
+        <span class="my-name underlined">
+          Hi, I'm Joana Jacome!
         </span>
         <span class="my-title">A Full Stack Web Developer</span>
       </div>
@@ -103,59 +103,69 @@
   <!--end of web stages of webdevelopment-->
 
   <!-- My Skills Section width progress bar -->
-  <section id="skills">
-    <h1 class="text-info font-weight-bold">My Skills</h1>
+  <section id="skills" class="container-fluid">
+    <h2 class="text-info font-weight-bold">My Skills</h2>
     <div class="progress" style="height: 40px;">
-      <div class="progress-bar bg-info" role="progressbar" style="width:20%">
-        HTML
+      <div class="progress-bar bg-info" role="progressbar" style="width:35%">
+        <p class=" d-block font-weight-bold pt-3">HTML</p>
       </div>
-    <div class="progress-bar bg-dark text-white" role="progressbar">
-      90%
-    </div>
+      <div class="progress-bar bg-success text-white html" role="progressbar">
+       100%
+      </div>
   </div>
     <br>
     <div class="progress" style="height: 40px;">
       <div class="progress-bar bg-info" role="progressbar" style="width:35%">
-        <span>CSS, SASS</span>
+        <p class="d-block font-weight-bold pt-3">CSS,SASS</p>
+      </div>
+      <div class="progress-bar bg-danger text-white css" role="progressbar">
+        90%
       </div>
     </div>
     <br>
     <div class="progress" style="height: 40px;">
       <div class="progress-bar bg-info" role="progressbar" style="width:35%;">
-        <span>Javascript</span>
+        <p class=" d-block font-weight-bold pt-3">Javascript</p>
+      </div>
+      <div class="progress-bar bg-warning text-white javascript" role="progressbar">
+        70%
       </div>
     </div>
     <br>
     <div class="progress" style="height: 40px;">
       <div class="progress-bar bg-info" role="progressbar" style="width:35%;">
-        <span>React</span>
+        <p class=" d-block font-weight-bold pt-3">React</p>
+      </div>
+      <div class="progress-bar bg-secondary text-white react" role="progressbar">
+        60%
       </div>
     </div>
     <br>
     <div class="progress" style="height: 40px;">
       <div class="progress-bar bg-info" role="progressbar" style="width:35%;">
-        <span>jQuery</span>
+        <p class=" d-block font-weight-bold pt-3">jQuery</p>
+      </div>
+      <div class="progress-bar bg-warning text-white jQuery" role="progressbar">
+        70%
       </div>
     </div>
     <br>
     <div class="progress" style="height: 40px;">
       <div class="progress-bar bg-info" role="progressbar" style="width:35%;">
-        <span>PHP</span>
+        <p class=" d-block font-weight-bold pt-3">PHP</p>
+      </div>
+      <div class="progress-bar bg-warning text-white PHP" role="progressbar">
+        70%
       </div>
     </div>
     <br>
-    <div class="progress" style="height: 40px;">
-      <div class="progress-bar bg-info" role="progressbar" style="width:35%;">
-        <span>Laravel</span>
-      </div>
-    </div>
   </section>
   <!--end of my skills section with progress bars-->
 
 
   <!--About Me Start Section-->
-  <section id="about-me" class="section">
-   <h2>About Me</h2>
+  <section id="about-me" class="section container-fluid">
+   <h2 class="font-weight-bold">About Me</h2>
     <div class="about">
       <div class="about-image">
         <img src="img/Joana.png" alt="Joana Jacome profile picture">
@@ -176,9 +186,9 @@
   <!--end of About Me Start Section-->
 
   <!--Contact Form-->
-  <section id="contact">
+  <section id="contact" class="container-fluid">
     <div class="address-wrapper">
-      <h1>Contact</h1>
+      <h2 class="font-weight-bold"f>Contact</h2>
 
 
       <div class="address">

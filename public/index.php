@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,11 +24,11 @@
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a href="index.html" class="navbar-brand font-weight-bold">Joana Jacome</a>
+      <a href="#banner" class="navbar-brand font-weight-bold">Joana Jacome</a>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="#home" class="nav-link">Home</a>
+            <a href="#banner" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
             <a href="#skills" class="nav-link">Skills</a>
@@ -109,7 +112,7 @@
       <div class="progress-bar bg-info" role="progressbar" style="width:35%">
         <p class=" d-block font-weight-bold pt-3">HTML</p>
       </div>
-      <div class="progress-bar bg-success text-white html" role="progressbar">
+      <div class="progress-bar bg-success text-white html" role="progressbar" style="position:relative">
        100%
       </div>
   </div>

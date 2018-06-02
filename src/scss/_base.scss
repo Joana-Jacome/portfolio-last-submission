@@ -197,7 +197,7 @@ animation-direction: alternate;
 
 #contact{
   padding-top: 50px;
-  margin-top: -20px;
+
 }
 .address-wrapper {
 max-width: 600px;
@@ -220,7 +220,6 @@ display: flex;
 justify-content: space-around;
 text-align: center;
 color: white;
-margin-bottom: 50px;
 }
 
 .inner-address p {
@@ -232,61 +231,6 @@ font-size: 30px;
 margin-bottom: 10px;
 }
 
-.form {
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-bottom: 50px;
-}
-
-.form-title {
-font-size: 25px;
-margin-bottom: 20px;
-color: #fff;
-text-align: center;
-}
-
-.input-form {
-display: flex;
-justify-content: space-between;
-width: 100%;
-margin-bottom: 20px;
-}
-
-.inner-msg {
-width: 100%;
-margin-bottom: 20px;
-}
-
-.input > input {
-border: 1px solid lightgray;
-width: 260px;
-padding: 10px 20px;
-outline: none;
-}
-
-.msg > textarea {
-width: 100%;
-border: 0;
-padding: 10px 20px;
-outline: none;
-height: 80px;
-}
-
-#contact-submit {
-border: 2px solid #fff;
-padding: 10px 20px;
-color: darkgray;
-cursor: pointer;
-transition: all 0.5s ease;
-font-weight: bold;
-width: 100%;
-}
-
-#contact-submit:hover{
-background: #fff;
-color: black;
-}
 
 .social{
   display: flex;

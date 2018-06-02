@@ -224,7 +224,7 @@
         </div>
       </div>
 
-      <div class="form">
+      <!--<div class="form">
         <div class="form-title">
           Leave me your message
         </div>
@@ -249,8 +249,23 @@
         <button name="submit" type="submit" id="contact-submit">Submit</button>
 
         </div>
-      </div>
-
+      </div>-->
+      <form>
+  <div class="form-group mt-5">
+      <input type="text" class="form-control" placeholder="Enter Name">
+    </div>
+    <div class="form-group">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <textarea class="form-control" id="exampleFormControlTextarea1"  placeholder="Enter Message" rows="3"></textarea>
+  </div>
+  <div class="form-row text-center">
+    <div class="col-12">
+        <button type="submit" class="btn btn-light font-weight-bold text-muted mb-5">Submit</button>
+    </div>
+ </div>
+ </form>
 
       <div class="social">
         <div class="inner-social">

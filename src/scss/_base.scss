@@ -263,17 +263,6 @@ fab:hover{
   /* IE 10+ */
   color: #a9aacd;
 }
-@media screen and (max-width: 640px) {
-  .input-form {
-    flex-direction: column;
-  }
-  .input:first-child > input {
-    margin-bottom: 20px;
-  }
-  .form .input > input {
-    width: 100% !important;
-  }
-}
 
 @media screen and (max-width: 580px) {
   .address {

@@ -224,33 +224,8 @@
         </div>
       </div>
 
-      <!--<div class="form">
-        <div class="form-title">
-          Leave me your message
-        </div>
-
-        <div class="input-form">
-          <div class="input">
-            <input type="text" placeholder="Name">
-          </div>
-
-          <div class="input">
-            <input type="text" placeholder="Email">
-          </div>
-        </div>
-
-        <div class="inner-msg">
-          <div class="msg">
-            <textarea placeholder="Message"></textarea>
-          </div>
-        </div>
-
-        <div class="btn">
-        <button name="submit" type="submit" id="contact-submit">Submit</button>
-
-        </div>
-      </div>-->
-      <form>
+      
+  <form>
   <div class="form-group mt-5">
       <input type="text" class="form-control" placeholder="Enter Name">
     </div>

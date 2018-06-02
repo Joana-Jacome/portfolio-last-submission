@@ -1,3 +1,6 @@
+//the function below controls when the text in the banner shows and disappears and also when the user scrolls up and down
+
+
 $(document).ready(function() {
     $('.my-name').hide().fadeIn(800);
     $('.my-title').hide().delay(850).fadeIn(900);
@@ -15,35 +18,27 @@ $(window).scroll(function() {
 
 });
 
+$(document).ready(function(){
+    $('.html').animate({width: '55%'}, 7000, 'linear');  
+    $('.css').animate({width: "45%"},7000, "linear"); 
+    $('.javascript').animate({width: "35%"},7000, "linear");
+    $('.react').animate({width: "30%"},7000, "linear");
+    $('.jQuery').animate({width: "35%"}, 7000, "linear");
+    $('.PHP').animate({width: "35%"},7000,"linear");
 
-  $(function(){
-    let oldtext;    
-    $('.card-text').hover(function(){
-    oldtext = $(this).text();
-        $(this).text("Above all you want something you are proud of. That's always been my philosophy of business.");
-    }, function(){
-        $(this).text(oldtext)
-    });
-  })
-
-   
+});  
 
        
 $(document).ready(function(){
-    $('.html').animate({width: '65%'}, 4000, 'linear');  
-    $('.css').animate({width: "60%"},4500, "linear"); 
-    $('.javascript').animate({width: "55%"},5000, "linear");
-    $('.react').animate({width: "53%"},5500, "linear");
-    $('.jQuery').animate({width: "55%"}, 5000, "linear");
-    $('.PHP').animate({width: "55%"},5000,"linear");
-    });
+    $('#my-button').click(function(event){
+    $('.html').animate({width: '55%'}, 7000, 'linear');  
+    $('.css').animate({width: "45%"},7000, "linear"); 
+    $('.javascript').animate({width: "35%"},7000, "linear");
+    $('.react').animate({width: "30%"},7000, "linear");
+    $('.jQuery').animate({width: "35%"}, 7000, "linear");
+    $('.PHP').animate({width: "35%"},7000,"linear");
     
-
-
-
-
-
-
-
+});
+});
 
 

@@ -1,5 +1,8 @@
 <?php
 
+  
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -61,14 +64,23 @@
 
 
   <!--my business introduction-->
-  <div class="card text-white bg-info rounded-0">
-    <div class="card-body p-0">
-      <p class="card-text text-center lead p-3">I'm ready to develop your website to ignite your
-        <em class="font-weight-bold">business to the top</em>.
-        <br> The most important things are not things, but the users experience on your website!</p>
+    <div id="carouselContent" class="carousel slide bg-info" data-ride="carousel" data-interval="7000">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active text-center p-4">
+            <p class="card-text text-center font-weight-bold text-white lead p-3">I'm ready to develop your website to ignite your business to the top.
+        The most important things are not things, but the users experience on your website!</p>
+            </div>
+            <div class="carousel-item text-center p-4">
+                
+            <p class="card-text text-center text-white font-weight-bold lead p-3">"Above all you want something, you are proud of.That's always been my philosophy of business. A business has to be involving, it has to be fun, and it has to exercise your creative instincts."</p>
+            </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <!--end of my business introduction-->
+
+
+<!--end of my business introduction-->
+
 
   <!--web stages of webdevelopment-->
   <div class="container-fluid" style="background-color:black;">
@@ -107,57 +119,58 @@
 
   <!-- My Skills Section width progress bar -->
   <section id="skills" class="container-fluid">
-    <h2 class="text-info font-weight-bold">My Skills</h2>
-    <div class="progress" style="height: 40px;">
-      <div class="progress-bar bg-info" role="progressbar" style="width:35%">
-        <p class=" d-block font-weight-bold pt-3">HTML</p>
+    <!--<h2 class="text-info font-weight-bold">My Skills</h2>-->
+    <div class="text-center"><button id="my-button" class="btn btn-info btn-lg font-weight-bold" type="button">My Skills</button></div>
+    <div class="progress" style="height: 50px;">
+      <div class="progress-bar bg-info" role="progressbar" style="width:45%">
+        <p class=" d-block font-weight-bold lead pt-3">HTML</p>
       </div>
-      <div class="progress-bar bg-success text-white html" role="progressbar" style="position:relative">
+      <div class="progress-bar bg-success lead text-white html" role="progressbar" style="position:relative">
        100%
       </div>
   </div>
     <br>
-    <div class="progress" style="height: 40px;">
-      <div class="progress-bar bg-info" role="progressbar" style="width:35%">
-        <p class="d-block font-weight-bold pt-3">CSS,SASS</p>
+    <div class="progress" style="height: 50px;">
+      <div class="progress-bar bg-info" role="progressbar" style="width:45%">
+        <p class="d-block font-weight-bold lead pt-3">CSS,SASS</p>
       </div>
-      <div class="progress-bar bg-danger text-white css" role="progressbar">
+      <div class="progress-bar bg-danger lead text-white css" role="progressbar">
         90%
       </div>
     </div>
     <br>
-    <div class="progress" style="height: 40px;">
-      <div class="progress-bar bg-info" role="progressbar" style="width:35%;">
-        <p class=" d-block font-weight-bold pt-3">Javascript</p>
+    <div class="progress" style="height: 50px;">
+      <div class="progress-bar bg-info" role="progressbar" style="width:45%;">
+        <p class=" d-block font-weight-bold lead pt-3">Javascript</p>
       </div>
-      <div class="progress-bar bg-warning text-white javascript" role="progressbar">
+      <div class="progress-bar bg-warning lead text-white javascript" role="progressbar">
         70%
       </div>
     </div>
     <br>
-    <div class="progress" style="height: 40px;">
-      <div class="progress-bar bg-info" role="progressbar" style="width:35%;">
-        <p class=" d-block font-weight-bold pt-3">React</p>
+    <div class="progress" style="height: 50px;">
+      <div class="progress-bar bg-info" role="progressbar" style="width:45%;">
+        <p class=" d-block font-weight-bold lead pt-3">React</p>
       </div>
-      <div class="progress-bar bg-secondary text-white react" role="progressbar">
+      <div class="progress-bar bg-secondary lead text-white lead react" role="progressbar">
         60%
       </div>
     </div>
     <br>
-    <div class="progress" style="height: 40px;">
-      <div class="progress-bar bg-info" role="progressbar" style="width:35%;">
-        <p class=" d-block font-weight-bold pt-3">jQuery</p>
+    <div class="progress" style="height: 50px;">
+      <div class="progress-bar bg-info" role="progressbar" style="width:45%;">
+        <p class=" d-block font-weight-bold lead pt-3">jQuery</p>
       </div>
-      <div class="progress-bar bg-warning text-white jQuery" role="progressbar">
+      <div class="progress-bar bg-warning lead text-white jQuery" role="progressbar">
         70%
       </div>
     </div>
     <br>
-    <div class="progress" style="height: 40px;">
-      <div class="progress-bar bg-info" role="progressbar" style="width:35%;">
-        <p class=" d-block font-weight-bold pt-3">PHP</p>
+    <div class="progress" style="height: 50px;">
+      <div class="progress-bar bg-info" role="progressbar" style="width:45%;">
+        <p class=" d-block font-weight-bold lead pt-3">PHP</p>
       </div>
-      <div class="progress-bar bg-warning text-white PHP" role="progressbar">
+      <div class="progress-bar bg-warning lead text-white PHP" role="progressbar">
         70%
       </div>
     </div>
@@ -167,7 +180,7 @@
 
 
   <!--About Me Start Section-->
-  <section id="about-me" class="section container-fluid">
+  <section id="about-me" class="container-fluid">
    <h2 class="font-weight-bold">About Me</h2>
     <div class="about">
       <div class="about-image">
@@ -188,8 +201,8 @@
  </section>
   <!--end of About Me Start Section-->
 
-  <!--Contact Form-->
-  <section id="contact" class="container-fluid">
+   <!--Contact Form-->
+   <section id="contact" class="container-fluid">
     <div class="address-wrapper">
       <h2 class="font-weight-bold"f>Contact</h2>
 
@@ -233,7 +246,7 @@
         </div>
 
         <div class="btn">
-          Send Message
+        <button name="submit" type="submit" id="contact-submit">Submit</button>
 
         </div>
       </div>
